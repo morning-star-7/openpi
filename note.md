@@ -51,7 +51,9 @@ git remote set-url origin git@github-morningstar7:morning-star-7/openpi.git
 - git push
 
 
-# TODO
-- uv env -> conda env
+# uv env -> conda env
+- uv pip freeze > requirements.txt
+- conda activate openpi
+- pip install -r requirements.txt
 
 
